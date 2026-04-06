@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffa25074-7390-4306-a908-08c839110060" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AUU.Tests/BalancingTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AUU/Balancing/BalancingManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AUU/Balancing/DisableRankReason.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AUU/Patches/LevelPatches.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AUU/SceneUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ultramod-template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ultramod-template/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUU.Tests/AUU.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AUU.Tests/AUU.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUU.Tests/Plugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AUU.Tests/Plugin.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AUU/AUU.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AUU/AUU.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUU/Plugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AUU/Plugin.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +33,13 @@
     "accountId": "81bac3ca-07a3-4b5a-872d-72db8c68fd35"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c9eb53f4e58a4fcf992ab3fc5390979029d000/76/dd45d51f/SceneHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AUU.Tests/BalancingTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AUU/Balancing/DisableRankReason.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AUU/Patches/LevelPatches.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AUU/SceneUtils.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
@@ -51,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1775493627577</updated>
-      <workItem from="1775493629260" duration="322000" />
+      <workItem from="1775493629260" duration="2759000" />
     </task>
     <servers />
   </component>
@@ -59,6 +75,9 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

@@ -1,4 +1,6 @@
+using System;
 using BepInEx;
+using HarmonyLib;
 
 namespace AUU {
 	[BepInPlugin(PluginInfo.GUID, PluginInfo.NAME, PluginInfo.VERSION)]
@@ -7,6 +9,11 @@ namespace AUU {
 			public const string GUID = "com.averyocean65.utils";
 			public const string NAME = "AUU";
 			public const string VERSION = "0.1.0";
+		}
+
+		private void Awake() {
+			Harmony harmony = new Harmony(PluginInfo.GUID);
+			harmony.PatchAll();
 		}
 	}
 }
