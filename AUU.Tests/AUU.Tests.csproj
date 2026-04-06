@@ -61,4 +61,8 @@
     </Target>
     -->
 
+    <Target Name="CopyMod" AfterTargets="AfterBuild">
+        <Copy SourceFiles="$(OutDir)/$(MSBuildProjectName).dll" DestinationFolder="$(BepInExPlugins)/$(MSBuildProjectName)"/>
+    </Target>
+
 </Project>
