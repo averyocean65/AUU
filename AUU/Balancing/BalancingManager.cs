@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace AUU {
@@ -11,8 +12,12 @@ namespace AUU {
 			}
 			
 			DisableRankReason reasonStruct = new DisableRankReason(reason, color);
-			if (DisableRankReasons.Contains(reasonStruct)) {
-				return null;
+			
+			// manual contains check, since List.Contains() doesn't seem to work... :/
+			foreach (var existingReason in DisableRankReasons) {
+				if (string.Equals(existingReason.Reason, reason, StringComparison.Ordinal)) {
+					return null;
+				}
 			}
 			
 			DisableRankReasons.Add(reasonStruct);

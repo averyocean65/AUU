@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffa25074-7390-4306-a908-08c839110060" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AUU.Tests/BalancingTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AUU/Balancing/BalancingManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AUU/Balancing/DisableRankReason.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AUU/Patches/LevelPatches.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AUU/SceneUtils.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ultramod-template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ultramod-template/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AUU.Tests/AUU.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AUU.Tests/AUU.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AUU.Tests/Plugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AUU.Tests/Plugin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AUU/AUU.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AUU/AUU.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AUU/Plugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AUU/Plugin.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1775493627577</updated>
-      <workItem from="1775493629260" duration="2759000" />
+      <workItem from="1775493629260" duration="3151000" />
     </task>
     <servers />
   </component>

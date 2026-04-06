@@ -1,6 +1,7 @@
 using System;
 using BepInEx;
 using HarmonyLib;
+using UnityEngine.SceneManagement;
 
 namespace AUU {
 	[BepInPlugin(PluginInfo.GUID, PluginInfo.NAME, PluginInfo.VERSION)]
@@ -14,6 +15,10 @@ namespace AUU {
 		private void Awake() {
 			Harmony harmony = new Harmony(PluginInfo.GUID);
 			harmony.PatchAll();
+
+			SceneManager.sceneLoaded += (arg0, mode) => {
+				BalancingManager.DisableRankReasons.Clear();
+			};
 		}
 	}
 }
