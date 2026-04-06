@@ -1,16 +1,12 @@
 using BepInEx;
 
-namespace MyMod {
+namespace AUU {
 	[BepInPlugin(PluginInfo.GUID, PluginInfo.NAME, PluginInfo.VERSION)]
 	public class Plugin : BaseUnityPlugin {
 		private static class PluginInfo {
-			public const string GUID = "com.my.mod";
-			public const string NAME = "My Mod";
-			public const string VERSION = "1.0.0";
-		}
-
-		private void Start() {
-			Logger.LogInfo("Hello, World!");
+			public const string GUID = "com.averyocean65.utils";
+			public const string NAME = "AUU";
+			public const string VERSION = "0.1.0";
 		}
 	}
 }

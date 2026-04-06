@@ -5,11 +5,11 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{51A6E9E2-CCF2-4A4D-A4EA-2A3A97C9C851}</ProjectGuid>
+        <ProjectGuid>{2AF459E7-FC3D-45C6-B036-634BB7686F77}</ProjectGuid>
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>AUU</RootNamespace>
-        <AssemblyName>AUU</AssemblyName>
+        <RootNamespace>AUU.Tests</RootNamespace>
+        <AssemblyName>AUU.Tests</AssemblyName>
         <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
@@ -45,6 +45,8 @@
 
         <Reference Include="$(ManagedDir)/UnityEngine.dll"/>
         <Reference Include="$(ManagedDir)/UnityEngine.CoreModule.dll"/>
+        
+        <Reference Include="$(BepInExPlugins)/AUU/AUU.dll"/>
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Plugin.cs" />
@@ -58,9 +60,5 @@
     <Target Name="AfterBuild">
     </Target>
     -->
-
-    <Target Name="CopyMod" AfterTargets="AfterBuild">
-        <Copy SourceFiles="$(OutDir)/$(MSBuildProjectName).dll" DestinationFolder="$(BepInExPlugins)/$(MSBuildProjectName)"/>
-    </Target>
 
 </Project>
