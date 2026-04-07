@@ -45,9 +45,11 @@
 
         <Reference Include="$(ManagedDir)/UnityEngine.dll"/>
         <Reference Include="$(ManagedDir)/UnityEngine.CoreModule.dll"/>
+        <Reference Include="$(ManagedDir)/UnityEngine.AssetBundleModule.dll"/>
         <Reference Include="$(ManagedDir)/Unity.TextMeshPro.dll"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="AssetBundleUtils.cs" />
         <Compile Include="Balancing\BalancingManager.cs" />
         <Compile Include="Balancing\DisableRankReason.cs" />
         <Compile Include="EnemyUtils.cs" />

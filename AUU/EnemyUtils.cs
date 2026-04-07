@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 
 namespace AUU {
-	public static class EnemyHelpers {
+	public static class EnemyUtils {
 		// These get initialized in Start() of HookArm, thankfully.
 		
 		/// <summary>
