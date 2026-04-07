@@ -1,5 +1,7 @@
 using System;
+using AUU.Portals;
 using BepInEx;
+using ULTRAKILL.Portal;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -23,6 +25,16 @@ namespace AUU.Tests {
 
 				GameObject tests = new GameObject("AUU Testing");
 				tests.AddComponent<BalancingTest>();
+
+				Portal testPortal = PortalSpawner.CreatePortal("My Portal",
+					tests.transform,
+					tests.transform,
+					new PortalParameters() {
+						Size = Vector2.one * 20,
+						MinimumEntrySpeed = 0,
+						MinimumExitSpeed = 20,
+						CanSeeItself = false
+					});
 			};
 		}
 	}
