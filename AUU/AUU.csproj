@@ -50,6 +50,7 @@
     <ItemGroup>
         <Compile Include="Balancing\BalancingManager.cs" />
         <Compile Include="Balancing\DisableRankReason.cs" />
+        <Compile Include="EnemyUtils.cs" />
         <Compile Include="Patches\LevelPatches.cs" />
         <Compile Include="Plugin.cs" />
         <Compile Include="Portals\PortalParameters.cs" />
