@@ -23,5 +23,11 @@ namespace AUU {
 			DisableRankReasons.Add(reasonStruct);
 			return reasonStruct;
 		}
+
+		public static void ReenableRankSubmission(DisableRankReason reason) {
+			if (DisableRankReasons.Contains(reason)) {
+				DisableRankReasons.Remove(reason);
+			}
+		}
 	}
 }

@@ -9,7 +9,7 @@ namespace AUU {
 		private static class PluginInfo {
 			public const string GUID = "com.averyocean65.utils";
 			public const string NAME = "AUU";
-			public const string VERSION = "0.1.0";
+			public const string VERSION = "1.0.0";
 		}
 
 		private void Awake() {
