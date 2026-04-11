@@ -17,12 +17,15 @@ namespace AUU.Tests {
 
 		private void Awake() {
 			SceneManager.sceneLoaded += (arg0, mode) => {
-				Logger.LogInfo($"Is Level: {SceneUtils.IsInLevel()}");
+				if (HudMessageReceiver.Instance) {
+					HudMessageReceiver.Instance.SendHudMessage(
+						$"{Enum.GetName(typeof(SceneType), SceneUtils.GetSceneType())}: {Enum.GetName(typeof(LevelType), SceneUtils.GetLevelType())}");
+				}
 				
 				if (!SceneUtils.IsInLevel()) {
 					return;
 				}
-
+				
 				GameObject tests = new GameObject("AUU Testing");
 				tests.AddComponent<BalancingTest>();
 
